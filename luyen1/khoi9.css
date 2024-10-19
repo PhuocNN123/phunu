@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.khoi1{
+    width: 90%;
+    height: 10cm;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+}
+.khoi2{
+    width: 90%;
+    height: 30%;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+.khoi3{
+    width: 10rem;
+    height: 5rem;
+    border: 2px solid black;
+    margin: 10px;
+    float: left;
+}
+.khoi4{
+    width: 10rem;
+    height: 5rem;
+    border: 2px solid black;
+    margin: 10px;
+    float: right;
+}

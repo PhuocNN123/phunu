@@ -1,0 +1,19 @@
+h1 {color: red;}
+
+.hu.hu{
+color:red;
+}
+h1{
+    font-size: 120px;
+    background-color: #777;
+    width: 50%;
+    
+}
+h1:hover{
+    background-color: aqua;
+}
+*{
+    border: 1px dashed green;
+    margin: 30px;
+    padding: 30px;
+}

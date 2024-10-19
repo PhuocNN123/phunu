@@ -1,0 +1,35 @@
+
+  body {
+    background-color: #f4f4f4;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .task-priority {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .high {
+    background-color: #ff6961;
+  }
+  .medium {
+    background-color: #fdfd96;
+  }
+  .low {
+    background-color: #77dd77;
+  }
+  .add-task-btn {
+    background-color: #9b59b6;
+    color: white;
+    float: right;
+  }
+  .button1, .button2{
+    background-color: #77dd77;
+  }
+  .button1:hover ,.button2:hover{
+    background-color: red;
+  }

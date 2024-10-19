@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task List Interface</title>
+<link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.rtl.min.css">
+<link rel="stylesheet" href="phuoc.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center">Task List</h1>
+  <button class="btn add-task-btn">+ Add Task</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>Priority</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Go to gym</td>
+        <td><span class="task-priority high">Cao</span></td>
+        <td>To Do</td>
+        <td>
+          <button type="button" class=" btn button1">Sửa</button>
+          <button type="button" class="btn button2">Xóa</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Read a book</td>
+        <td><span class="task-priority low">Thap</span></td>
+        <td>Done</td>
+        <td>
+          <button type="button" id="button3">Sửa</button>
+          <button type="button" id="button4">Xóa</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Go to market</td>
+        <td><span class="task-priority medium">Trung binh</span></td>
+        <td>In Progress</td>
+        <td>
+          <button type="button" id="button5">Sửa</button>
+          <button type="button" id="button6">Xóa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

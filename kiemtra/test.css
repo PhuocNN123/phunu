@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 13px solid blue;
+}
+.logo {
+    margin-top: 40px;
+    margin-left: 60%;
+}
+.login {
+    border-bottom: 1px solid gray;
+}
+/* .left {
+
+} */
+.right{
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 400px;
+}
+.input-total {
+    margin-top: 5%;
+    height: 40px; /* Đặt chiều cao cho cả input và button */
+    padding-left: 5px; /* Đặt padding bên trong cho cả input và button */
+    border: 1px solid #ccc; /* Đặt viền cho cả input và button */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính trong chiều rộng và chiều cao */
+}
+.input {
+    height: 37px; /* Đặt chiều cao cho cả input và button */
+    padding: 0 10px; /* Đặt padding bên trong cho cả input và button */
+    border: 1px none #ccc; /* Đặt viền cho cả input và button */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính trong chiều rộng và chiều cao */
+}
+.button {
+    height: 38px; /* Đặt chiều cao cho cả input và button */
+    padding: 0 10px; /* Đặt padding bên trong cho cả input và button */
+    border: 1px none #ccc; /* Đặt viền cho cả input và button */
+    /* box-sizing: border-box; Đảm bảo padding và border được tính trong chiều rộng và chiều cao */
+    background-color: yellow;
+    cursor: pointer;
+}
+.bg-nav {
+    width: 100%;
+    height: 414px;
+    background-image: url(./img/bien.jpg);
+    background-size: cover;
+}
+.top-menu {
+    background-color: #0a1f77;
+    color: white;
+    margin-left: 340px;
+    margin-right: 410px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 10px;
+}
+.bordercol {
+    background-color: #ffffff;
+    height: 39px;
+    width: 2px;
+}
+.ti-home {
+    font-size: 110%;
+    margin-left: 0px;
+}
+.slide-img {
+    width: 60%;
+    margin-left: 340px;
+}
+.div-link {
+    display: flex;
+    flex-wrap: wrap;
+    /* border-bottom: 1px solid #eee; */
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    margin-left: 340px;
+    margin-right: 410px;
+    margin-top: 25px;
+}
+.quicklink {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    margin: 0px 0px 20px;
+    padding-bottom: 14px;
+    width: 100%;
+}
+.tuyensinh {
+    text-align: center;
+    font-size: 12px;
+    align-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.language {
+    cursor: pointer;
+}

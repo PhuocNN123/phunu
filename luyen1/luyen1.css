@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: chocolate;
+}
+h2{
+    text-decoration: underline;
+    color: blue;
+}
+.box{
+    font-weight:900;
+}
+.bbox{
+    font-weight: 900;
+    color: #f39;
+    text-align: center;
+    background-color: #fecffd;
+}
+.Tho{
+    text-align: center;
+    font-style: italic;
+    background-color: #ffffcc;
+}
+.tho1{
+    color: aqua;
+}
+.tho2{
+    color: crimson;
+}
+.tho3{
+    color: indigo;
+}
